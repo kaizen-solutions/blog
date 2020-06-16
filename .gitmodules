@@ -1,3 +1,7 @@
 [submodule "themes/leaveit"]
 	path = themes/leaveit
 	url = https://github.com/liuzc/LeaveIt.git
+[submodule "public"]
+	path = public
+	url = https://github.com/kaizen-reactive-solutions/kaizen-reactive-solutions.github.io.git
+	branch = master
