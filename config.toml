@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Kaizen Solutions Blog"
-theme = "leaveit"
+theme = "LeaveIt"
 
 paginate = 10
 enableEmoji = true
