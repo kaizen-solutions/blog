@@ -36,7 +36,7 @@ enableEmoji = true
     avatar = "/images/profile.png"                      # Author's avatar
     subtitle = "The only constant is improvement"       # Subtitle
     cdn_url = ""                                        # Base CDN URL
-    home_mode = ""                                      # post or other
+    home_mode = "other"                                 # post or other
     keywords = "functional-programming,scala"
 
 [params.social]
