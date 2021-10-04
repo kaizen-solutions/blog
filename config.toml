@@ -40,7 +40,7 @@ enableEmoji = true
     keywords = "functional-programming,scala"
 
 [params.social]
-    GitHub   = "kaizen-reactive-solutions"
+    GitHub   = "kaizen-solutions"
     LinkedIn = "calvin-lee-fernandes"
     Twitter  = "cal_fern"
     Email    = "cal@kaizen-solutions.io"
