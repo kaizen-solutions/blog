@@ -1,0 +1,63 @@
+baseURL = 'http://example.org/'
+languageCode = "en"
+defaultcontentlanguage = "en"
+title = 'Kaizen Solutions Blog'
+theme = 'hugo-coder'
+
+paginate = 20
+
+[markup.highlight]
+style = "onedark"
+
+[params]
+author = "Kaizen Solutions"
+info = "The only constant is improvement"
+description = ""
+keywords = "functional-programming,scala,blog"
+avatarurl = "images/profile.png"
+favicon_16 = "images/favicon-32x32.png"
+favicon_32 = "images/favicon-32x32.png"
+since = 2019
+enableTwemoji = true
+colorScheme = "auto"
+hidecolorschemetoggle = false
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/kaizen-solutions/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter fa-2x"
+weight = 2
+url = "https://twitter.com/cal_fern/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/company/kaizen-reactive-solutions"
+
+[[params.social]]
+name = "Email"
+icon = "fa fa-envelope fa-2x"
+weight = 4
+url = "mailto:cal@kaizen-solutions.io"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+# Menu links
+[[menu.main]]
+name = "Blog"
+weight = 1
+url  = "posts/"
+[[menu.main]]
+name = "About"
+weight = 2
+url = "about/"

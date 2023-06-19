@@ -3,7 +3,7 @@ title:  "Typeclass derivation with Magnolia"
 date:   2020-12-28 12:33:33 -0500
 tags: ["scala2", "typeclass", "derivation", "magnolia", "development"]
 categories: ["Typeclass"]
-author: Calvin Lee Fernandes
+authors: ["Calvin Lee Fernandes"]
 ---
 
 # Introduction

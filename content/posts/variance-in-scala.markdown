@@ -3,7 +3,7 @@ title:  "Understanding Covariance and Contravariance"
 date:   2020-02-29 12:33:33 -0500
 tags: ["scala", "variance", "development"]
 categories: ["Variance"]
-author: Calvin Lee Fernandes
+authors: ["Calvin Lee Fernandes"]
 ---
 
 ## Introduction
