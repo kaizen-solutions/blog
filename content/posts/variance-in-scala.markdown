@@ -61,7 +61,7 @@ val res2: Foo2[Animal] = example2(new Foo2[Okapi] {})
 
 1. The flip classification applies to f. We are dealing with a covariant type parameter which means you can normally fill in the type itself and supertypes. However, the flip classification has affected this and as a result you can now only use the type itself and subtypes. So here we expect a Foo2[Zebra] but we can provide a subtype of Zebra so we can put in Foo2[Okapi].
 	
-2. In terms of what can point to the function result, when Foo2[Zebra] is in the result position, no flip classification occurs and T remains covariant meaning you can provide the type itself and supertypes. So an Animal which is a supertype of Zebra can point to this result so we can point a Foo2[Animal] to this result of Foo2[Zebra[
+2. In terms of what can point to the function result, when Foo2[Zebra] is in the result position, no flip classification occurs and T remains covariant meaning you can provide the type itself and supertypes. So an Animal which is a supertype of Zebra can point to this result so we can point a Foo2[Animal] to this result of Foo2[Zebra]
 	
 3. The function can return Zebra or subtypes of Zebra (Okapi) as it appears that the flip classification applies to this point as well (covariant means you can use the type itself and supertypes but the flip classification changes this to be the type itself and subtypes). If you try and return a supertype of Zebra, it will complain but returning a subtype is fine. 
 
